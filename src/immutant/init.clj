@@ -1,5 +1,5 @@
-(ns immutant-demo.init
-  (:use immutant-demo.core)
+(ns immutant-demo-fntest.init
+  (:use immutant-demo-fntest.core)
   (:require [immutant.web :as web]))
 
 (web/start "/" my-handler)
